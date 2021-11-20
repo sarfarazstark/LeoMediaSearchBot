@@ -44,8 +44,8 @@ Leo Media Search Bot 🇱🇰
 Here you can find any media file by searching its name 😊
 
 Bot : {username} 🤖
-Support Group : @leosupportx 🇱🇰
-Updates Channel: @new_ehi 🇱🇰
-Developper : @naviya2 🇱🇰
+Support Group : @bluewhalegroup 👥
+Updates Channel: @Bluwhalebots 📢
+Developper : @SarfarazStark 👤
 """
 INVITE_MSG = environ.get('INVITE_MSG', 'Please join @.... to use this bot')
