@@ -17,11 +17,11 @@ async def start(bot, message):
     else:
         buttons = [
             [
-                InlineKeyboardButton('Developer 🧑‍💻', url='https://t.me/naviya2'),
+                InlineKeyboardButton('Developer 🧑‍💻', url='https://t.me/SarfarazStark'),
                 InlineKeyboardButton('Go Inline 🎭', switch_inline_query=''),
             ],
             [
-                InlineKeyboardButton('Search Mod Apps 🔎', switch_inline_query_current_chat=''),
+                InlineKeyboardButton('Search Media 🔎', switch_inline_query_current_chat=''),
             ],
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -105,6 +105,6 @@ async def delete(bot, message):
         'caption': reply.caption
     })
     if result.deleted_count:
-        await msg.edit('File is successfully deleted from database\nLeo Projects🇱🇰')
+        await msg.edit('File is successfully deleted from database\nBlueWhaleBots 📢')
     else:
-        await msg.edit('File not found in database\nLeo Projects🇱🇰')
+        await msg.edit('File not found in database\nBlueWhaleBots 📢')
