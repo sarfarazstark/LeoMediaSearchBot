@@ -49,7 +49,7 @@ async def answer(bot, query):
                 reply_markup=reply_markup))
 
     if results:
-        switch_pm_text = f"{emoji.FILE_FOLDER} Latest Updated Mod Apps 🔄👇"
+        switch_pm_text = f"{emoji.FILE_FOLDER} Latest Updated Media Search Bot 🔄👇"
         if string:
             switch_pm_text += f" for {string}"
 
@@ -60,7 +60,7 @@ async def answer(bot, query):
                            next_offset=str(next_offset))
     else:
 
-        switch_pm_text = f'{emoji.CROSS_MARK} No Mod Apps Found in Leo Mod Apps Bot🙁'
+        switch_pm_text = f'{emoji.CROSS_MARK} No Media Found in Leo Media Search Bot🙁'
         if string:
             switch_pm_text += f' for "{string}"'
 
@@ -79,8 +79,8 @@ def get_reply_markup(username, query):
         ],
 
         [
-           InlineKeyboardButton('Support Group 👥', url='https://t.me/leosupportx'),
-           InlineKeyboardButton('Rate us ★', url='https://t.me/tlgrmcbot?start=leoinlinesearchbot-review'),
+           InlineKeyboardButton('Support Group 👥', url='https://t.me/BlueWhalegroup'),
+           InlineKeyboardButton('Update Channel ★', url='https://t.me/BlueWhaleBots'),
         ],
     ]
     return InlineKeyboardMarkup(buttons)
