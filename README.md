@@ -1,4 +1,4 @@
-# [Leo Media Search bot](https://github.com/Naviya2/LeoMediaSearchBot)
+# [Leo Media Search bot](https://github.com/sarfarazstark/LeoMediaSearchBot)
 
 * Index channel or group files for inline search.
 * When you post file on telegram channel or group this bot will save that file in database, so you can search easily in inline mode.
